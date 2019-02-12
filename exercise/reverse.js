@@ -12,8 +12,4 @@ function reverseWord(word){
 
 }
 
-// function reverseWord(n){
-//     return n.split(' ').reverse(' ').join(' ');
-// }
-
 console.log(reverseWord("1234"));

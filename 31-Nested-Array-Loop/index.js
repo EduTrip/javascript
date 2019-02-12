@@ -1,14 +1,16 @@
 function nestedArrayValues(val){
-    let tempArr = []
+    let arr = []
     for(let i = 0; i < val.length; i++){
-        let tempSubArr = [];
+        //index of arr[]
+        let arr2 = [];
         for(let j = 0; j < val.length; j++){
-            tempSubArr.push(val[j][i]);
+            //sub-index of arr [[]]
+            arr2.push(val[j][i]);
         }
 
-        tempArr.push(tempSubArr);
+        arr.push(arr2);
     }
-    return tempArr;
+    return arr;
 
 }
 
