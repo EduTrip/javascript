@@ -15,3 +15,5 @@
 - Jika kita ingin melakukan perulangan berdasarkan panjang array dan tidak ingin mencetak array baru lagi, maka gunakanlah - forEach
 
 - Jika kita ingin melakukan perulangan dan ingin menghasilkan array baru, maka gunakanlah MAP
+
+- Sekian
